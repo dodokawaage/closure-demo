@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Date Range Picker</title>
+
+	<!-- link calendar resources -->
+	<script src="closure-library/closure/goog/base.js"></script>
+	<script src="TimePicker_xhrio.js"></script>
+
+
+	<link href="css/demo.css" rel="stylesheet" type="text/css">
+	<link href="css/datepicker.css" rel="stylesheet" type="text/css">
+	<link href="css/inputdatepicker.css" rel="stylesheet" type="text/css">
+	
+</head>
+<body>
+	<div id="start-date"></div>
+	<div id="end-date"></div>
+    <div id="chart_div" style="width:700; height:240;"></div>
+
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        google.load('visualization', '1', {'packages':['annotatedtimeline']});
+        function drawChart() {
+            var data = new google.visualization.DataTable();
+            data.addColumn('date', 'Date');
+            data.addColumn('current', 'Current');
+            data.addRows([
+                [0, 0.1],
+                [1, 0.2],
+                [2, 0.3],
+                [3, 0.5],
+                [4, 1.0],
+                [5, 1.5],
+                [6, 1.2],
+                [7, 0.7]
+            ]);
+            var chart = new google.visualization.AnnotatedTimeLine(document.getElementById('chart_div'));
+            chart.draw(data, {'displayAnnotations': true});
+        }
+        google.setOnLoadCallback(drawChart);
+    </script>
+
+	<script>
+		function main() {
+			var startDate = "start date: ";
+			var endDate = "end date: ";
+			var startElemId = "date-field1";
+			var startButtId = "date-button1";
+			var endElemId = "date-filed2";
+			var endButtId = "date-button2";
+		
+			var blockContainer_1 = document.getElementById('start-date');
+			var startTimePicker = makeDatePickers(startDate, startElemId, startButtId, blockContainer_1);
+			
+			var blockContainer_2 = document.getElementById('end-date');
+			var endTimePicker = makeDatePickers(endDate, endElemId, endButtId, blockContainer_2);
+		}
+		main();
+	</script>
+</body>
+</html>
