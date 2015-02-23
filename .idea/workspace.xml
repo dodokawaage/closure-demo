@@ -26,8 +26,8 @@
       <file leaf-file-name="Calendar.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/Calendar.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.627193" vertical-offset="853" max-vertical-offset="1309">
-              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.40350878" vertical-offset="836" max-vertical-offset="1326">
+              <caret line="60" column="69" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -146,9 +146,9 @@
         <option value="$PROJECT_DIR$/src/sysTime.java" />
         <option value="$PROJECT_DIR$/web/Calendar1.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/webpage/TimePicker.html" />
-        <option value="$PROJECT_DIR$/web/Calendar.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/.idea/artifacts/com_cic_client_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/web/Calendar.jsp" />
       </list>
     </option>
   </component>
@@ -659,12 +659,12 @@
       <workItem from="1422385485666" duration="3314000" />
       <workItem from="1424297079458" duration="9267000" />
       <workItem from="1424333815588" duration="889000" />
-      <workItem from="1424717832537" duration="2646000" />
+      <workItem from="1424717832537" duration="3254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69251000" />
+    <option name="totallyTimeSpent" value="69859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
@@ -1146,8 +1146,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Calendar.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.627193" vertical-offset="853" max-vertical-offset="1309">
-          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.40350878" vertical-offset="836" max-vertical-offset="1326">
+          <caret line="60" column="69" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="69" />
           <folding />
         </state>
       </provider>
